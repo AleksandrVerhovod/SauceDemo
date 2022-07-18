@@ -19,9 +19,9 @@ WebElement and = driver.findElement(By.xpath("//input[@class='input_error form_i
 WebElement idCSS = driver.findElement(By.cssSelector("#login-button"));
 WebElement classCSS = driver.findElement(By.cssSelector(".login_logo"));
 WebElement tagNameCSS = driver.findElement(By.cssSelector("form svg"));
-//WebElement attribute1CSS = driver.findElement(By.cssSelector("class^='submit'");
-//WebElement attribute2CSS = driver.findElement(By.cssSelector("class$='action'");
-//WebElement attribute3CSS = driver.findElement(By.cssSelector("class*='btn'"));
+WebElement attribute1CSS = By.cssSelector("[class^='submit']").findElement(driver);
+WebElement attribute2CSS = By.cssSelector("[class$='action']").findElement(driver);
+WebElement attribute3CSS = driver.findElement(By.cssSelector("[class*='btn']"));
 WebElement childFirstCSS = driver.findElement(By.cssSelector("#login_button_container > div:first-child"));
 WebElement childNthCSS = driver.findElement(By.cssSelector("div.inventory_list > div:nth-child(4)"));
 }

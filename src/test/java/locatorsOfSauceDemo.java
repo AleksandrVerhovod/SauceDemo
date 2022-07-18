@@ -1,7 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 public class locatorsOfSauceDemo {
 WebDriver driver;
 WebElement className = driver.findElement(By.className("input_error"));

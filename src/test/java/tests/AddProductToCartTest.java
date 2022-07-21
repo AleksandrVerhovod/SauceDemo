@@ -12,8 +12,8 @@ public class AddProductToCartTest extends BaseTest {
 
     @Test
     public void addToCardTest () {
-        RegistartionOnSite sentRegistartion = new RegistartionOnSite(driver);
-        sentRegistartion.registration();
+        RegistartionOnSite sentRegistration = new RegistartionOnSite(driver);
+        sentRegistration.registration();
         ProductPage productPage = new ProductPage(driver);
         String productPrice = productPage.getProductPrice();
         productPage.addToCart();

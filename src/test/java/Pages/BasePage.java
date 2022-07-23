@@ -9,7 +9,4 @@ public class BasePage {
     }
 
     public WebDriver driver;
-
-    public BasePage() {
-    }
 }

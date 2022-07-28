@@ -17,10 +17,10 @@ public class RegistrationPage extends BasePage{
     public void openRegistrationPage () {
         driver.get(Urls.mainPage);
     }
-    public void loginInput (String login) {
-        driver.findElement(LOGIN_INPUT).sendKeys(LoginAndPassword.LOGIN);
+    public void loginInput () {
+        driver.findElement(LOGIN_INPUT).sendKeys(LoginAndPassword.LOGIN_PRFMNS);
     }
-    public void passwordInput (String password) {
+    public void passwordInput () {
         driver.findElement(PASSWORD).sendKeys(LoginAndPassword.PASSWORD);
     }
     public void buttonLoginClick () {

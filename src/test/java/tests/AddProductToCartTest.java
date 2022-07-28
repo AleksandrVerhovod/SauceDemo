@@ -1,6 +1,5 @@
 package tests;
 
-import Base.BaseTest;
 import Pages.CartPage;
 import Pages.ProductPage;
 import Pages.Service.RegistartionOnSite;

@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import Base.BaseTest;
 
 public class AddProductToCart extends BaseTest{
     private void sendLogInAndPassword() {

@@ -5,7 +5,8 @@ import Pages.RegistrationPage;
 import constants.LoginAndPassword;
 import org.openqa.selenium.WebDriver;
 
-public class RegistartionOnSite{
+
+public class RegistartionOnSite {
 
     private final WebDriver driver;
     public RegistartionOnSite(WebDriver driver) {
@@ -14,8 +15,8 @@ public class RegistartionOnSite{
     public void registration () {
         RegistrationPage registrationPage = new RegistrationPage(driver);
         registrationPage.openRegistrationPage();
-        registrationPage.loginInput(LoginAndPassword.LOGIN);
-        registrationPage.passwordInput(LoginAndPassword.PASSWORD);
+        registrationPage.loginInput();
+        registrationPage.passwordInput();
         registrationPage.buttonLoginClick();
     }
 }

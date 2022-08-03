@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class AddProductToCart extends BaseTest{
+public class AddProductToCart extends BaseWithoutArchitectureTest {
     private void sendLogInAndPassword() {
 
         driver.findElement(By.xpath("//input[@class='input_error form_input' and @type='text']")).sendKeys(LoginAndPassword.LOGIN);
